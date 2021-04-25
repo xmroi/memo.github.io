@@ -468,7 +468,10 @@ code {
 <p>例： <code>int i = 0</code></p>
 <br>
 <h1 id="%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E6%8C%BF%E5%85%A5">コードの挿入</h1>
-<pre class="hljs"><code><div>コード
+<pre class="hljs"><code><div>&gt; ```python
+&gt; import numpy
+&gt; print(&quot;numpy&quot;)
+&gt; ```
 </div></code></pre>
 <pre class="hljs"><code><div><span class="hljs-keyword">import</span> numpy
 print(<span class="hljs-string">"numpy"</span>)
@@ -502,7 +505,7 @@ print(<span class="hljs-string">"numpy"</span>)
 <br>
 <h1 id="%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%AE%E6%8C%BF%E5%85%A5">テーブルの挿入</h1>
 <pre class="hljs"><code><div>|名前|番号|得点|
-|-|-|-|
+|:-:|--|--:|
 |suzuki|10|20|
 |satou|30|40|
 |kimura|50|60|
@@ -510,26 +513,26 @@ print(<span class="hljs-string">"numpy"</span>)
 <table>
 <thead>
 <tr>
-<th>名前</th>
+<th style="text-align:center">名前</th>
 <th>番号</th>
-<th>得点</th>
+<th style="text-align:right">得点</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>suzuki</td>
+<td style="text-align:center">suzuki</td>
 <td>10</td>
-<td>20</td>
+<td style="text-align:right">20</td>
 </tr>
 <tr>
-<td>satou</td>
+<td style="text-align:center">satou</td>
 <td>30</td>
-<td>40</td>
+<td style="text-align:right">40</td>
 </tr>
 <tr>
-<td>kimura</td>
+<td style="text-align:center">kimura</td>
 <td>50</td>
-<td>60</td>
+<td style="text-align:right">60</td>
 </tr>
 </tbody>
 </table>
