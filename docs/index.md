@@ -1,5 +1,5 @@
 
-[markdown_sample](./python/pytest/pytest_scope.html)
+[pytest_scope](./python/pytest/pytest_scope.html)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/xmroi/memo.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
